@@ -1,0 +1,50 @@
+.Customer{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CustomerWrapper{
+  display:flex;
+  align-items: stretch;
+  width:100%;
+}
+.LeftWrapper{
+  flex-basis: 40%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.InfoLine{
+  height:40px;
+}
+.Icon{
+  cursor:pointer;
+}
+.Line{
+  height:40px;
+  align-self: flex-end;
+}
+.RightWrapper{
+  flex-basis: 70%;
+}
+.NotesListWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.StatusWrapper{
+  display:flex;
+  flex-wrap: wrap;
+}
+.Select{
+  flex-basis: 100%;
+}
+ul{
+  padding:0;
+  margin:0;
+}
+.Info{
+font-size: 12px;
+color:#ccc;
+padding:0;
+}
