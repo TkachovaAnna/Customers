@@ -68,7 +68,7 @@ module.exports = function (app, db) {
           console.log(`Error updating object: ${err}`);
           res.send({ 'error': 'An error has occurred', 'status': 400 });
         } else {
-          console.log(`${result} document(s) updated`);
+          // console.log(`${result} document(s) updated`);
           res.send(id);
         }
       }
